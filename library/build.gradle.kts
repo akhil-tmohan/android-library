@@ -40,7 +40,7 @@ publishing {
             from(components.findByName("release"))
             groupId = "com.atm.library"
             artifactId = "androidlibrary"
-            version = "1.0.4"
+            version = "1.0.5"
             afterEvaluate {
                 components.names.forEach {
                     println("Available component: $it")
